@@ -12,4 +12,31 @@ SpaceX, a leader in the space industry, strives to make space travel affordable 
 * Rate of successful landings over time
 * Best predictive model for successful landing (binary classification)
 
+## Executive Summary
+The research attempts to identify the factors for a successful rocket landing. To make this determination, the following methodologies where used:
+* **Collect** data using SpaceX REST API and web scraping techniques
+* **Wrangle** data to create success/fail outcome variable
+* **Explore** data with data visualization techniques, considering the following factors: payload, launch site, flight number and yearly trend
+* **Analyze** the data with SQL, calculating the following statistics: total payload, payload range for successful launches, and total # of successful and failed outcomes
+* **Explore** launch site success rates and proximity to geographical markers
+* **Visualize** the launch sites with the most success and successful payload ranges
+* **Build Models** to predict landing outcomes using logistic regression, support vector machine (SVM), decision tree and K-nearest neighbor (KNN)
+
+## Results
+
+### Exploratory Data Analysis:
+* Launch success has improved over time
+* KSC LC-39A has the highest success rate among landing sites
+* Orbits ES-L1, GEO, HEO, and SSO have a 100% success rate
+
+### Visualization / Analytics:
+* Most launch sites are near the equator, and all are close to the coast
+
+### Predictive ANalytics
+* All models performed similarly on the test set. The decision tree model slightly outperformed when looking at .best_score_
+
+
+
+
+
 

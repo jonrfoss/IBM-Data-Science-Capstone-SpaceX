@@ -1,2 +1,3 @@
 # IBM-Data-Science-Capstone-SpaceX
-This repository contains files for the IBM Data Science Capstone project
+
+![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DS0701EN-SkillsNetwork/api/Images/landing_1.gif)

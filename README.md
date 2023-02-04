@@ -32,7 +32,7 @@ The research attempts to identify the factors for a successful rocket landing. T
 ### Visualization / Analytics:
 * Most launch sites are near the equator, and all are close to the coast
 
-### Predictive ANalytics
+### Predictive Analytics
 * All models performed similarly on the test set. The decision tree model slightly outperformed when looking at .best_score_
 
 # Methodology
